@@ -1,0 +1,29 @@
+Mark and john are trying to compare their BMI(Body Mass Index).Which is calculated using the formula:BMI = mass/(height * height).
+(Mass in kg and height in meter).
+1.Store mark's and john's mass and height in variables.
+2.Calculate both their BMI's.
+3.Create a boolean variables containing information about wheather mark has heigher BMI than john?.
+4.Print a string to the console containing the variable from step 3.(Something like "is mark's BMI heigher than john's? true").
+
+Solution::
+var mark_mass,john_mass,mark_height,john_height;
+
+mark_mass = 50;
+john_mass = 60;
+mark_height = 2;
+john_height = 3;
+
+//BMI = mass/(height * height);
+
+
+var mark_BMI = mark_mass/(mark_height * mark_height);
+var john_BMI = john_mass/(john_height*john_height);
+
+console.log(mark_BMI > john_BMI)
+
+console.log("is mark's BMI heigher than john's ?",(mark_BMI > john_BMI))
+
+Output in developer console windows:
+
+true
+script.js:105 is mark's BMI heigher than john's ? true.
